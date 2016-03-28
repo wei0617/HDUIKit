@@ -15,6 +15,7 @@
 		6E5145E11CA913DB003FC141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5145DF1CA913DB003FC141 /* LaunchScreen.storyboard */; };
 		6E5145EC1CA913DB003FC141 /* HDUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5145EB1CA913DB003FC141 /* HDUIKitTests.m */; };
 		6E5145F71CA913DB003FC141 /* HDUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5145F61CA913DB003FC141 /* HDUIKitUITests.m */; };
+		6E5146071CA91403003FC141 /* UIView+HDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5146061CA91403003FC141 /* UIView+HDFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6E5145F21CA913DB003FC141 /* HDUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5145F61CA913DB003FC141 /* HDUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDUIKitUITests.m; sourceTree = "<group>"; };
 		6E5145F81CA913DB003FC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5146051CA91403003FC141 /* UIView+HDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HDFrame.h"; sourceTree = "<group>"; };
+		6E5146061CA91403003FC141 /* UIView+HDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6E5145D01CA913DB003FC141 /* HDUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				6E5146041CA91403003FC141 /* HDFrame */,
 				6E5145D41CA913DB003FC141 /* AppDelegate.h */,
 				6E5145D51CA913DB003FC141 /* AppDelegate.m */,
 				6E5145D71CA913DB003FC141 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				6E5145F81CA913DB003FC141 /* Info.plist */,
 			);
 			path = HDUIKitUITests;
+			sourceTree = "<group>";
+		};
+		6E5146041CA91403003FC141 /* HDFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6E5146051CA91403003FC141 /* UIView+HDFrame.h */,
+				6E5146061CA91403003FC141 /* UIView+HDFrame.m */,
+			);
+			path = HDFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				6E5145D91CA913DB003FC141 /* ViewController.m in Sources */,
 				6E5145D61CA913DB003FC141 /* AppDelegate.m in Sources */,
+				6E5146071CA91403003FC141 /* UIView+HDFrame.m in Sources */,
 				6E5145D31CA913DB003FC141 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
