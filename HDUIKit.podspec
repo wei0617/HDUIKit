@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wei0617/HDUIKit.git", :tag => "0.0.2" }
 
 
-  s.source_files  = "Classes", "HDUIKit/HDFrame/UIView+HDFrame*.{h,m}", "HDUIKit/HDAutoLayout/UIView+HDAutoLayout*.{h,m}", "HDUIKit/HDUIKit/HDUIKit.h"
+  s.source_files  = "HDUIKit/HDFrame/UIView+HDFrame*.{h,m}", "HDUIKit/HDAutoLayout/UIView+HDAutoLayout*.{h,m}", "HDUIKit/HDUIKit/HDUIKit.h"
   s.framework  = "UIKit"
   s.requires_arc = true
 

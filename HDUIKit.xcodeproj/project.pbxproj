@@ -91,7 +91,7 @@
 				6E2CA85D1CD83D48008BB56D /* UIView+HDAutoLayout.h */,
 				6E2CA85E1CD83D48008BB56D /* UIView+HDAutoLayout.m */,
 			);
-			name = HDAutoLayout;
+			path = HDAutoLayout;
 			sourceTree = "<group>";
 		};
 		6E2CA8601CD84037008BB56D /* HDUIKit */ = {
@@ -99,7 +99,7 @@
 			children = (
 				6E2CA8611CD84054008BB56D /* HDUIKit.h */,
 			);
-			name = HDUIKit;
+			path = HDUIKit;
 			sourceTree = "<group>";
 		};
 		6E5145C51CA913DB003FC141 = {
