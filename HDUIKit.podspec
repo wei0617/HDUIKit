@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "HDUIKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "方便设置控件大小位置"
 
   s.description  = <<-DESC
-                   方便设置控件大小位置，我的第一个一耐库制作
+                   方便设置控件大小位置，我的第一个依赖库制作
                    DESC
 
   s.homepage     = "https://github.com/wei0617/HDUIKit.git" 
@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.author             = { "weihongchang" => "weihongchang@139.com" }
 
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/wei0617/HDUIKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/wei0617/HDUIKit.git", :tag => "0.0.2" }
 
 
-  s.source_files  = "Classes", "HDUIKit/HDFrame/UIView+HDFrame*.{h,m}"
+  s.source_files  = "Classes", "HDUIKit/HDFrame/UIView+HDFrame*.{h,m}", "HDUIKit/HDAutoLayout/UIView+HDAutoLayout*.{h,m}", "HDUIKit/HDUIKit/HDUIKit.h"
   s.framework  = "UIKit"
   s.requires_arc = true
 
